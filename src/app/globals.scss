@@ -1,0 +1,32 @@
+@import './custom-theme.scss';
+
+body {
+  background: $primary-dark-gray;
+  position: relative;
+}
+
+.logo {
+  position: absolute;
+  top: 30px;
+  left: 24px;
+}
+
+.main {
+  height: 100vh;
+}
+
+.bg-upper {
+  background: $primary-light-gray;
+  height: 204px;
+}
+
+.h1 {
+  color: $primary-light-gray;
+}
+.mb-6 {
+  margin-bottom: 24px;
+}
+
+.pt-175 {
+  padding-top: 175px;
+}
